@@ -11,10 +11,14 @@ public enum C2PAError: Error, CustomStringConvertible {
     /// Invalid UTF-8 encoding encountered.
     case utf8
 
+    /// Builder configuration error.
+    case builderError(String)
+
     public var description: String {
         switch self {
         case .api(let msg): return "C2PA: \(msg)"
         case .utf8: return "C2PA: Invalid UTF-8 encoding"
+        case .builderError(let msg): return "C2PA Builder: \(msg)"
         }
     }
 }
