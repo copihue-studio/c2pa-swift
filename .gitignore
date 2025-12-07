@@ -1,0 +1,17 @@
+# Build artifacts
+build-temp/
+.build/
+DerivedData/
+
+# Xcode
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
+
+# Binary framework (hosted on GitHub Releases)
+Frameworks/C2PAC.xcframework/
+Frameworks/C2PAC.xcframework.zip
