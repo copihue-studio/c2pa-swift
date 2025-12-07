@@ -11,7 +11,7 @@ let package = Package(
         .binaryTarget(
             name: "C2PAC",
             url: "https://github.com/copihue-studio/c2pa-swift/releases/download/0.72.1/C2PAC.xcframework.zip",
-            checksum: "7049bc6463478f7e1912e5b931bf219511df0ba1e75052873b451088075b522c"
+            checksum: "a28f64f014592200b52a8549f6caca3eebb361e40553210118669dc77fcd3677"
         ),
         .target(
             name: "C2PA",
