@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "C2PAC",
-            url: "https://github.com/copihue-studio/c2pa-swift/releases/download/0.72.2/C2PAC.xcframework.zip",
-            checksum: "a28f64f014592200b52a8549f6caca3eebb361e40553210118669dc77fcd3677"
+            url: "https://github.com/copihue-studio/c2pa-swift/releases/download/0.72.3/C2PAC.xcframework.zip",
+            checksum: "2c3d8ba416e8f6086c29e3a6642a7b8bef5041f7aa41e6d6a1453c8af5421528"
         ),
         .target(
             name: "C2PA",
